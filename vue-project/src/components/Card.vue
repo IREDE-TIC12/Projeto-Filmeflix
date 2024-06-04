@@ -2,7 +2,11 @@
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-  name: 'Card',
+  data(){
+    return{
+
+    }
+  }
 })
 </script>
 

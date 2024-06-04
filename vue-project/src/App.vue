@@ -1,9 +1,17 @@
 <script setup lang="ts">
 // Seu script aqui (se necessário)
+
+import Card from './components/Card.vue';
+import NavBar from './components/NavBar.vue'
+
+
 </script>
 
 <template>
-  <nav class="bg-gray-700">
-    <p class="text-white">HOME</p>
-  </nav>
+  <div>
+    <NavBar/>
+    <Card/>
+
+  </div>
+
 </template>

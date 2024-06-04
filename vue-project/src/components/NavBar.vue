@@ -8,8 +8,11 @@ export default defineComponent({
 
 <template>
     <nav class="bg-gray-700 text-white flex gap-5">
-    <p class="text-white">HOME</p>
-    <p>FILMES</p>
-    <p>SÉRIES</p>
+      <div class="text-white">
+        <a href="#home">HOME</a>
+        <a href="#filmes">FILMES</a>
+        <a href="#series">SÉRIES</a>
+
+      </div>
     </nav>
 </template>

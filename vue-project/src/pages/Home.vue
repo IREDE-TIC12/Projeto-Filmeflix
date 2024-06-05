@@ -10,6 +10,7 @@ import NavBar from '../components/NavBar.vue'
 <template>
   <div>
     <NavBar/>
+    <h1>home</h1>
     <Card/>
 
   </div>

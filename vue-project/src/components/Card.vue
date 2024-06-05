@@ -11,7 +11,9 @@ export default defineComponent({
 </script>
 
 <template>
-    <div class="h-[610px] w-[20%] bg-black rounded-xl">
-        <p class="text-white flex justify-center "> FILME </p>
+  <div class="ml-10 mt-10 h-[610px] w-[20%] bg-red-400 rounded-xl hover:p-5 ease-in-out duration-300 cursor-pointer ">
+    <div class="h-full   bg-green-300 rounded-xl  ">
+
     </div>
+  </div>
 </template>
